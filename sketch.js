@@ -1,10 +1,10 @@
 var a,b,c,d;
 
-var music;
+//var music;
 
-function preload(){
-music=loadSound("music.mp3");
-}
+//function preload(){
+//music=loadSound("music.mp3");
+//}
 
 
 
@@ -45,9 +45,9 @@ function draw(){
     b.shapeColor="green";
   }
 
-  if(b.isTouching(a)){
-    music.play();
-  }
+  //if(b.isTouching(a)){
+    //music.play();
+ // }
 
   bounceoff(c,d);
     
